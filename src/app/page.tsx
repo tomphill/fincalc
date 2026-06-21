@@ -23,7 +23,7 @@ const features = [
     description:
       "Calculate your monthly mortgage payments, compare different loan terms, and see how interest rates affect your repayments.",
     icon: DollarSign,
-    href: "/mortgage",
+    href: "/mortgage-repayments-calculator",
     benefits: [
       { icon: Calendar, text: "Monthly & total repayment estimates" },
       { icon: Percent, text: "Adjustable interest rates & terms" },
@@ -61,7 +61,7 @@ export default function Home() {
         </p>
         <div className="mt-8 flex gap-4">
           <Button size="lg" asChild>
-            <Link href="/mortgage">
+            <Link href="/mortgage-repayments-calculator">
               Mortgage Calculator
               <ArrowRight />
             </Link>
