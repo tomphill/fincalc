@@ -35,7 +35,7 @@ const features = [
     description:
       "See how your investments grow over time with compound interest. Project savings, compare frequencies, and plan your financial future.",
     icon: TrendingUp,
-    href: "/compound-interest",
+    href: "/compound-interest-calculator",
     benefits: [
       { icon: Calendar, text: "Annual, monthly & daily compounding" },
       { icon: DollarSign, text: "Initial & recurring contribution support" },
@@ -67,7 +67,7 @@ export default function Home() {
             </Link>
           </Button>
           <Button variant="outline" size="lg" asChild>
-            <Link href="/compound-interest">
+            <Link href="/compound-interest-calculator">
               Compound Interest
               <ArrowRight />
             </Link>
